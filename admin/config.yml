@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: Husmeador12/205SRD
+  name: git-gateway
   branch: main
 
 media_folder: "img"
