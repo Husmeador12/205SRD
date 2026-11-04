@@ -1,26 +1,67 @@
-<p>&nbsp;</p>
-<!-- Usamos Tailwind CSS desde CDN para que el diseño cargue perfecto siempre --><!-- Cabecera --><header class="bg-slate-900 text-white shadow-md">
-<div class="max-w-5xl mx-auto px-4 py-6 flex justify-between items-center">
-<h1 class="text-2xl font-bold tracking-wide">Peugeot 205 SRD</h1>
-<nav class="space-x-4"><a class="hover:text-amber-400 transition" href="index.html">Inicio</a> <a class="hover:text-amber-400 transition" href="about.html">Sobre el proyecto</a> <a class="hover:text-amber-400 transition" href="contact.html">Contacto</a></nav></div>
-</header><!-- Contenido Principal -->
-<p></p>
-<!-- Sección Hero -->
-<section class="bg-white rounded-xl shadow-sm p-8 mb-8 border border-gray-100"><span class="bg-amber-100 text-amber-800 text-xs font-semibold px-2.5 py-0.5 rounded">Restauraci&oacute;n y Mantenimiento</span>
-<h2 class="text-3xl font-extxl font-bold text-gray-900 mt-2 mb-4">Bienvenido al diario de mi Peugeot 205 SRD</h2>
-<p class="text-lg text-gray-600 leading-relaxed">Este es el espacio donde documento paso a paso la puesta a punto, reparaciones mec&aacute;nicas y evoluciones de este cl&aacute;sico fiable con motor di&eacute;sel atmosf&eacute;rico.</p>
-</section>
-<!-- Cuadrícula de Artículos / Secciones -->
-<div class="grid md:grid-cols-2 gap-6">
-<div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-<h3 class="text-xl font-bold text-gray-900 mb-2">Mec&aacute;nica y Motor</h3>
-<p class="text-gray-600 mb-4">Trabajos realizados en la bomba de inyecci&oacute;n, cambio de filtros, correas y puestas a punto.</p>
-<a class="text-amber-600 font-medium hover:underline" href="#">Ver entradas &rarr;</a></div>
-<div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-<h3 class="text-xl font-bold text-gray-900 mb-2">Carrocer&iacute;a e Interiores</h3>
-<p class="text-gray-600 mb-4">Reparaci&oacute;n de &oacute;xidos superficiales, mejora de asientos y detalles est&eacute;ticos originales.</p>
-<a class="text-amber-600 font-medium hover:underline" href="#">Ver entradas &rarr;</a></div>
-</div>
-<!-- Pie de página --><footer class="bg-white border-t border-gray-200 mt-16 py-6 text-center text-gray-500 text-sm">
-<p>Proyecto Peugeot 205 SRD &mdash; Gestionado de forma libre con GitHub Pages.</p>
-</footer>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peugeot 205 SRD - Proyecto de Restauración</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/templatemo-xtra-blog.css">
+</head>
+<body>
+    <header class="tm-header" id="tm-header">
+        <div class="tm-header-wrapper">
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="tm-site-header">
+                <div class="mb-3 mx-auto tm-site-logo"><i class="fas fa-car fa-2x"></i></div>            
+                <h1 class="text-center">205 SRD</h1>
+            </div>
+            <nav class="tm-nav" id="tm-nav">            
+                <ul>
+                    <li class="tm-nav-item active"><a href="index.html" class="tm-nav-link"><i class="fas fa-home"></i>Inicio</a></li>
+                    <li class="tm-nav-item"><a href="post.html" class="tm-nav-link"><i class="fas fa-wrench"></i>Avances</a></li>
+                    <li class="tm-nav-item"><a href="about.html" class="tm-nav-link"><i class="fas fa-users"></i>Sobre el 205</a></li>
+                    <li class="tm-nav-item"><a href="contact.html" class="tm-nav-link"><i class="fas fa-envelope"></i>Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <main class="tm-main">
+            <div class="row tm-row">
+                <!-- Entrada 1 -->
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="img/img-01.jpg" alt="Motor 205 SRD" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Mantenimiento y Puesta a Punto</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        Revisión completa del motor diésel, cambio de aceite, filtros y comprobación de la bomba inyectora.
+                    </p>
+                </article>
+                <!-- Entrada 2 -->
+                <article class="col-12 col-md-6 tm-post">
+                    <hr class="tm-hr-primary">
+                    <a href="post.html" class="effect-lily tm-post-link tm-pt-60">
+                        <div class="tm-post-link-inner">
+                            <img src="img/img-02.jpg" alt="Interior 205 SRD" class="img-fluid">                            
+                        </div>
+                        <h2 class="tm-pt-30 tm-color-primary tm-post-title">Restauración del Interior</h2>
+                    </a>                    
+                    <p class="tm-pt-30">
+                        Limpieza profunda de tapicería, ajuste del salpicadero y restauración de plásticos originales.
+                    </p>
+                </article>
+            </div>
+        </main>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+</html>
